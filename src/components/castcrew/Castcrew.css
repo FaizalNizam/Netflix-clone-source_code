@@ -1,0 +1,103 @@
+.mainsec{
+    color: white;
+    height: 750px;
+    max-width: 100%;
+    background-size: cover;   
+}
+
+.coverimage{
+    max-height: 350px;
+    max-width: 300px;
+    padding-top: 125px;
+    margin-bottom: 320px;
+    margin-left: 20px;
+    float:left;
+   
+      
+}
+.moviename{
+    padding-left: 100px;  
+    padding-top: 35px;
+    
+}
+.rightsection{
+    width:79%;
+    height: 600px;
+    float: left;
+    color: white;
+}
+.releasedate{
+    padding-left: 100px;  
+    padding-top: 10px;
+
+}
+.overview{
+      
+    padding-top: 20px;
+    padding-left: 100px;
+
+
+}
+.overviewhead{
+    padding-left: 100px;
+    padding-top: 50px;
+
+}
+.rating{
+    padding-left: 100px;
+    padding-top: 20px;
+
+}
+.casts{
+    display: flex;
+    padding: 10px;
+    overflow-x: scroll;
+    overflow-y:hidden ;
+    margin-left:100px; 
+    
+}
+.castcard{
+    height: 220px;
+    width:150px;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+.casts::-webkit-scrollbar{
+    display: none;
+}
+.youtube{
+    height: 500px;
+    width:600px;
+    margin-left: -220px;
+    padding-top: 170px;
+    float: left;
+}
+.crewsec{
+    height: 700px;
+    width:48%;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-left: 20px;
+    float: left;
+ 
+
+}
+.crewcard{
+    height: 220px;
+    width:150px;
+    cursor: pointer;
+    margin-right: 10px;
+    padding-top: 270px;
+
+}
+.crewsec::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+    
+
