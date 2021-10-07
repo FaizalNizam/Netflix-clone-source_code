@@ -1,5 +1,4 @@
 .row{
-    margin-left: 20px;
     color: #fff;
     margin-top: 70px;
 }
@@ -9,33 +8,32 @@
     padding: 20px;
     overflow-x: scroll;
     overflow-y:hidden ;
+    
 }
 
 .posters::-webkit-scrollbar{
     display: none;
 }
 
-
 .poster{
     cursor: pointer;
-    max-height: 300px;
+    height: 170px;
     margin-right: 10px;
-
-}
-
-
-.smallPoster{
-    cursor: pointer;
-    max-height: 220px;
-    margin-right: 10px;
-
+    min-width: 299px;
 }
 
 .poster:hover{
     transform: scale(1.1);
     
 }
-.smallPoster:hover{
-    transform: scale(1.1);
-    
+
+.genre{
+    margin-left: 15px;
+    font-weight: normal;  
+}
+.h4align{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: normal;
+    justify-content: center;
 }

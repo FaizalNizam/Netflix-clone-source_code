@@ -3,21 +3,98 @@
     position: fixed;
     top:0;
     width: 100%;
-    height: 30px;
+    height: 20px;
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    background-color: black;
+    color: white;
+    z-index: 10;
    
 }
 
 .logo{
-position: fixed;
 left: 20px;
-width: 80px;
+width: 110px;
+height: 30px;
+margin-top: -6px;
+float: left;
 }
 
-.avatar {
-    position: fixed;
-    right: 20px;
-    width: 30px;
+.ultsm{
+   
+    height: 33px;
+    width: 230px;
+    border: 0;
+    font-size: 13px;
+    margin-top: -6px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    outline: none;
+    text-align: center;
+
+}
+
+.buttonjoin{
+    width: 120px;
+    height: 33px;
+    background-color:  #e50914;
+    color: white;
+    cursor: pointer;
+    font-weight: 400;
+    text-align: center;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 2px;
+    text-decoration: none;
+    letter-spacing: .1px;
+    margin-top: -6px;
+    margin-left: 5px;
+    margin-right: 5px;
+   
+}
+.buttonjoin:hover{
+    background-color: rgb(180, 7, 7);
+}
+
+.buttonsign{
+    color: white;
+    font-weight: 400;
+    border: 1px solid #888;
+    border-radius: 2px;
+    width: 95px;
+    height: 33px;
+    background-color: transparent;
+    margin-top: -6px;
+    cursor: pointer;
+}
+.buttonsign:hover{
+    background-color: rgb(194, 182, 182);
+}
+.searchbutton{
+    
+    width:80px;
+    height:33px;
+    margin-top: -6px;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 13px;
+    background-color: white;
+    cursor: pointer;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    color:grey;
+    
+
+}
+.searchbutton:hover{
+    background-color: rgb(221, 217, 217);
+}
+.right{
+    float: left;
+    margin-left: 20px;
+    width: 45%;
+    justify-content: space-between;
+    
+    
 }

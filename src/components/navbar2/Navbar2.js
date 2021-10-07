@@ -1,9 +1,9 @@
 import React,{useState} from 'react'
 import {useHistory} from 'react-router-dom'
-import './Navbar.css'
+import '../navBar/Navbar.css'
 import axios from '../../axios'
 import {API_KEY} from '../../constants/constants'
-function Navbar() {
+function Navbar2() {
 
     const [searchmovie, setSearchMovie] = useState([])
     const history=useHistory();
@@ -16,13 +16,13 @@ function Navbar() {
 
      function getMovieId(){
          console.log(searchmovie.id)
-         history.push({pathname:'/crew', state:{movieId:searchmovie.id, poster:searchmovie.backdrop_path, image:searchmovie.poster_path, moviename:searchmovie.original_title, date:searchmovie.release_date, overview:searchmovie.overview, rating:searchmovie.vote_average,lang:searchmovie.original_language}})
+         history.push({pathname:'/crew2', state:{movieId:searchmovie.id, poster:searchmovie.backdrop_path, image:searchmovie.poster_path, moviename:searchmovie.original_title, date:searchmovie.release_date, overview:searchmovie.overview, rating:searchmovie.vote_average,lang:searchmovie.original_language}})
 
      }
 
     return (
         <div className="navbar">
-           <a href="http://localhost:3000/netflix-clone"> <img className="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1920px-Netflix_2015_logo.svg.png" alt="oopss" /> </a>
+            <a href="http://localhost:3000/netflix-clone"> <img className="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1920px-Netflix_2015_logo.svg.png" alt="oopss" /> </a>
             <div className="right">
             <input onChange={Search} className="ultsm" type="text" placeholder="UNLIMITED TV SHOWS & MOVIES" />
             <button className="searchbutton" onClick={getMovieId}>search</button>
@@ -34,4 +34,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default Navbar2
